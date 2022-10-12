@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #383630;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fbfbfa;
+}
+
+header {
+    background-color: #fbfbfa;
+}
+
+.navbar-brand p {
+    margin: 1px 0 0 5px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.icone-main p {
+    margin: 1px 0 0 5px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.icones-redes {
+    font-size: 2em;
+}
+
+.icones-redes i:hover {
+    color: #368ed2;
+    transition: 300ms;
+}
+
+body > header > nav > div > div > a:nth-child(1) > i{
+    margin: 0 10px;
+}
+
+body > header > nav > div > div > a:nth-child(2) > i{
+    margin: 0 10px;
+}
+
+body > header > nav > div > div > a:nth-child(3) > i{
+    margin: 0 0 0 10px;
+}
+
+.coluna-esquerda {
+    height: 80vh;
+    background-color: #fbfbfa;
+}
+
+.coluna-direita {
+    background-color: #fff;
+}
+
+.opcoes-divicon {
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.opcoes-divicon img {
+    margin-left: 3.6em;
+}
+
+.opcoes-divicon p {
+    margin: 4px 0 0 5px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #6c6c6c;
+}
+
+.opcoes-div {
+    width: 112%;
+    margin-left: -17px;
+    background-color: #fbfbfa;
+    border: none;
+}
+
+.opcoes-div:hover {
+    background-color: #f1f1f0;
+    cursor: pointer;
+}
+
+.opcoes-div p{
+    margin-top: 16px;
+}
+
+.opcoes-div2 {
+    width: 100%;
+    background-color: #fbfbfa;
+    border: none;
+}
+
+.opcoes-div2:hover {
+    background-color: #f1f1f0;
+    cursor: pointer;
+}
+
+.opcoes-div2 p{
+    margin-top: 16px;
+}
+
+.div-ativa {
+    width: 112%;
+    margin-left: -17px;
+    background-color: #f1f1f0;
+    border: none;
+}
+
+.div-ativa p {
+    margin-top: 16px;
+}
+
+.btn-edit i {
+    cursor: pointer;
+}
